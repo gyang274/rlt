@@ -1,0 +1,16 @@
+Package: rlt
+Type: Package
+Title: U.S. Top 10 Retailer's Store Location Analysis (rlt).
+Version: 0.1.0
+Author: Guang Yang
+Maintainer: Guang Yang <gyang274@gmail.com>
+Description: U.S. Top 10 Retailer's Store Location Analysis.
+License: MIT + file LICENSE
+LazyData: TRUE
+Depends: data.table, magrittr,
+    Rcpp (>= 0.12.5), RcppArmadillo, parallel
+RoxygenNote: 5.0.1
+Imports: plyr, dplyr, methods,
+    Rcpp (>= 0.12.5), RcppArmadillo, parallel
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: GNU make
